@@ -461,3 +461,45 @@ section.closing { padding: clamp(72px, 9vw, 120px) 0; }
 @media (max-width: 600px) {
   .about__media .about__portrait { width: 104px; height: 104px; right: 12px; bottom: -28px; }
 }
+
+/* Foto dos serviços (paisagem recortada em retrato) */
+.services__media img { object-position: 72% 50%; }
+
+/* Lista de documentos no card de serviço */
+.svc__items { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 4px; font-size: 15px; color: var(--muted); }
+.svc__items li { display: flex; align-items: center; gap: 10px; }
+.svc__items li::before { content: ""; width: 6px; height: 6px; flex: none; background: var(--accent); transform: rotate(45deg); }
+
+/* Como funciona: faixa com os 5 passos */
+section.band--steps { min-height: 0; align-items: stretch; }
+.band--steps .band__scrim { background: linear-gradient(180deg, rgba(8,41,43,.88) 0%, rgba(8,41,43,.94) 100%); }
+.band--steps .band__content { padding-top: clamp(80px, 10vw, 128px); padding-bottom: clamp(80px, 10vw, 128px); }
+.band--steps .band__title { max-width: 22ch; }
+.process {
+  list-style: none; padding: 0; margin: clamp(36px, 5vw, 56px) 0 0;
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px;
+}
+.process li { padding: 26px 22px 28px; border-top: 3px solid var(--accent-bright); background: rgba(241, 246, 245, 0.06); }
+.process__num { display: block; font-size: 15px; font-weight: 700; letter-spacing: 0.1em; color: var(--accent-bright); }
+.process h3 { margin-top: 14px; font-size: 1.12rem; font-weight: 600; letter-spacing: -0.01em; line-height: 1.25; }
+.band--steps .process p { margin-top: 8px; max-width: none; font-size: 15px; color: var(--on-night-muted); }
+.band--steps .process__note { margin-top: clamp(28px, 4vw, 40px); max-width: 60ch; font-size: 1.1rem; font-weight: 500; color: var(--on-night); }
+
+/* CTA final com texto de apoio */
+.closing__lead { margin-top: 18px; max-width: 52ch; color: var(--on-night-muted); font-size: 1.1rem; }
+
+/* Rodapé: nome, função e serviços */
+.footer__brand .footer__name { margin-top: 18px; font-size: 20px; font-weight: 600; color: var(--on-night); }
+.footer__brand .footer__role { margin-top: 4px; color: var(--on-night); }
+.footer__brand .footer__tags { margin-top: 12px; font-size: 14px; max-width: 40ch; }
+
+@media (max-width: 1080px) {
+  .process { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 920px) {
+  .band--steps .band__scrim { background: linear-gradient(180deg, rgba(8,41,43,.9) 0%, rgba(8,41,43,.95) 100%); }
+  .process { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .process { grid-template-columns: 1fr; }
+}
