@@ -17,11 +17,10 @@ Sem build: HTML, CSS e JS puros. Publique a pasta em GitHub Pages, Netlify, Verc
 
 Textos de capa, sobre, serviços, "Como funciona o meu trabalho?", localização, atendimento, FAQ, CTA final e rodapé enviados pela Lara em 08/10/2026.
 
-## Pendências
+## Notas
 
-- **Depoimentos:** os exemplos foram retirados. A seção volta quando a Lara enviar os depoimentos reais (há um comentário no `index.html` no lugar da seção; o CSS `.reviews` continua no `styles.css`).
-- **Foto do Sobre:** a Lara vai enviar uma foto dela trabalhando para substituir `assets/sobre.jpg` (marcado com `AGUARDANDO` no `index.html`).
-- **Foto da Lara** (`assets/lara.png`) foi recortada do print do WhatsApp, em baixa resolução. Troque por uma foto original.
+- **Depoimentos:** feedbacks reais enviados pela Lara (mensagem e comentário da SB Carnes Nobres e dois áudios de clientes após fiscalização, transcritos sem os trechos ocultados).
+- **Fotos da Lara:** `sobre.jpg` (Lara trabalhando), `lara.png` (retrato) e `servicos.jpg` foram enviadas pela cliente.
 - **Logo:** o site usa um monograma "LC" em texto. Envie o arquivo do logo para substituir.
 - Contato: WhatsApp `+55 47 9125-1221` (`wa.me/554791251221`) e `lcsegurancadealimentos@gmail.com`.
 

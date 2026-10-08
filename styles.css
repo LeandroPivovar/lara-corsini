@@ -463,7 +463,7 @@ section.closing { padding: clamp(72px, 9vw, 120px) 0; }
 }
 
 /* Foto dos serviços (paisagem recortada em retrato) */
-.services__media img { object-position: 72% 50%; }
+.services__media img { object-position: 40% 50%; }
 
 /* Lista de documentos no card de serviço */
 .svc__items { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 4px; font-size: 15px; color: var(--muted); }
@@ -503,3 +503,6 @@ section.band--steps { min-height: 0; align-items: stretch; }
 @media (max-width: 600px) {
   .process { grid-template-columns: 1fr; }
 }
+
+/* Foto da Lara trabalhando: foco nela e na prancheta */
+.about__media > img:not(.about__portrait) { object-position: 50% 72%; }
